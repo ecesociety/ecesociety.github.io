@@ -1,0 +1,24 @@
+{
+  "name": "ecesoc-website",
+  "version": "0.1.0",
+  "description": "Website for the Waterloo ECE Society",
+  "main": "index.html",
+  "dependencies": {
+    "ecesoc-style": "^1.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ecesociety/ecesociety.github.io.git"
+  },
+  "keywords": [
+    "ecesoc",
+    "website"
+  ],
+  "author": "Matthew Nielsen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ecesociety/ecesociety.github.io/issues"
+  },
+  "homepage": "https://github.com/ecesociety/ecesociety.github.io#readme"
+}
