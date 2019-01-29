@@ -3,8 +3,13 @@
   "version": "0.1.0",
   "description": "Website for the Waterloo ECE Society",
   "main": "index.html",
+  "scripts": { 
+    "start" : "node server.js" 
+  },
   "dependencies": {
-    "ecesoc-style": "^1.0.0"
+    "connect": "^3.6.6",
+    "ecesoc-style": "^1.0.0",
+    "serve-static": "^1.13.2"
   },
   "devDependencies": {},
   "repository": {
