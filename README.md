@@ -1,3 +1,3 @@
 # Waterloo ECE Society Website
 
-lets get this bread!
+We live in a society ...
