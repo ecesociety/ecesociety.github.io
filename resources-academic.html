@@ -11,16 +11,24 @@
   	<body class="bg-black">
 		<!-- Navigation section -->
 		<nav class="db dt-l w-100 border-box pa3 ph5-l">
-			<a class="db dtc-l v-mid white link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="#" title="Home">
+			<a  href="#" title="Home">
 				<img src="/img/icon_small.png" class="dib w2 h2 br-100" alt="Site Name">
 			</a>
-			<div class="db dtc-l v-mid w-100 w-75-l tc tr-l helvetica">
-				<a class="link dim white f6 f5-l dib mr3 mr4-l" href="/" title="Home">Home</a>
-				<a class="link dim white f6 f5-l dib mr3 mr4-l" href="#about" title="About">About</a>
-				<a class="link dim white f6 f5-l dib mr3 mr4-l" href="https://www.facebook.com/UWECESociety/" title="Events">Events</a>
-				<a class="link dim white f6 f5-l dib" href="resources.html" title="Resources">Resources</a>
-			</div>
+			
 		</nav>
+		<div class="navbar">
+		  <a href="/" title="Home">Home</a>
+		  <a href="#about" title="About">About</a>
+		  <div class="dropdown" title="Resources">
+		    <button class="dropbtn">Resources 
+		      <i class="fa fa-caret-down"></i>
+		    </button>
+		    <div class="dropdown-content">
+		      <a href="resources-wellness.html">Wellness</a>
+		      <a href="resources-academic.html">Academic</a>
+		    </div>
+		  </div> 
+		</div>
 
 		<!-- Initial page content -->
 		<article class="cf vh-100">
@@ -38,12 +46,12 @@
 				Academic resources
 			</h1>
 			<h2 class="f5 f4-m f3-l fw2 black-50 mt0 lh-copy">
-				Here is a list of ressources.
+				Here is a list of resources.
 			</h2>
 			
 			<div class="w-50 center tl">
 				<dl class="f6 lh-title mv2">
-					<dt class="dib">Academic ressource 1:</dt>
+					<dt class="dib">Academic resource 1:</dt>
 					<dd class="dib ml0 black-50">Insert text here.</dd>
 				</dl>
 				<dl class="f6 lh-title mv2">
