@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="University of Waterloo ECE Society">
+		<link rel="stylesheet" href="/css/ecesoc-style.min.css">
+		<link rel="stylesheet" href="/css/additional-style.css">
+		<link rel=icon href=/favicon.png>
+		<title>ECE Society</title>
+	</head>
+  	<body class="bg-black">
+		<!-- Navigation section -->
+		<nav class="db dt-l w-100 border-box pa3 ph5-l">
+			<a class="db dtc-l v-mid white link dim w-100 w-25-l tc tl-l mb2 mb0-l" href="#" title="Home">
+				<img src="/img/icon_small.png" class="dib w2 h2 br-100" alt="Site Name">
+			</a>
+			<div class="db dtc-l v-mid w-100 w-75-l tc tr-l helvetica">
+				<a class="link dim white f6 f5-l dib mr3 mr4-l" href="/" title="Home">Home</a>
+				<a class="link dim white f6 f5-l dib mr3 mr4-l" href="#about" title="About">About</a>
+				<a class="link dim white f6 f5-l dib mr3 mr4-l" href="https://www.facebook.com/UWECESociety/" title="Events">Events</a>
+				<a class="link dim white f6 f5-l dib" href="resources.html" title="Resources">Resources</a>
+			</div>
+		</nav>
+
+		<!-- Initial page content -->
+		<article class="cf vh-100">
+			<div class="fl w-100 w-50-ns tc">
+				<img src="/img/resourcestext.png" class="dib w-100" alt="Site Logo">
+			</div>
+			<div class="fl w-100 w-50-ns tc">
+				<img src="/img/moremanz.svg" class="dib w-100" alt="Site Logo">
+			</div>
+		</article>
+
+		<!-- Resources -->
+		<article class="tc bg-white helvetica pv4 center" id="about">
+			<h1 class="f1 f2-m f1-l fw2 black-90">
+				Academic resources
+			</h1>
+			<h2 class="f5 f4-m f3-l fw2 black-50 mt0 lh-copy">
+				Here is a list of ressources.
+			</h2>
+			
+			<div class="w-50 center tl">
+				<dl class="f6 lh-title mv2">
+					<dt class="dib">Academic ressource 1:</dt>
+					<dd class="dib ml0 black-50">Insert text here.</dd>
+				</dl>
+				<dl class="f6 lh-title mv2">
+					<dt class="dib">Academic:</dt>
+					<dd class="dib ml0 black-50">Insert text here.</dd>
+				</dl>
+
+			</div>
+      
+
+		<!-- Closing remarks and important links -->
+		<article class="cf bg-white helvetica pb4 center">
+
+		</article>
+
+		<!-- Footer -->
+		<footer class="pv4 ph3 ph5-m ph6-l white bg-dark-purple helvetica">
+			<img src="/img/logo/ecelogotext2white.svg" alt="A bright blue sky" class="db center w-100 mw7 w5-ns" />
+
+			<small class="f6 db tc">© 2019 <b class="ttu">University of Waterloo Electrical and Computer Engineering Society</b>., All Rights Reserved</small>
+		</footer>
+
+	</body>
+</html>
